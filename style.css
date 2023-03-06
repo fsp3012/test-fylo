@@ -38,7 +38,7 @@ h1 h2 h3 h4 h5 h6{
     align-items: center;
     padding: 0% 6%;
 }
-div ul li {
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding:30px 10px;
@@ -149,7 +149,7 @@ display: flex;
 flex-direction: column;
 gap: 30px;
 padding: 30px 60px;
-height: 150vh;
+height: 180vh;
 }
 .quotes{
     width: 30px;
@@ -163,7 +163,7 @@ height: 150vh;
     background-color: var(--dark-blue4);
     border-radius: 8px;
     padding: 20px 40px 200px;
-    height: 140px ;
+    height: 150px ;
     position:relative;
 
 }
@@ -189,31 +189,30 @@ height: 150vh;
  .section4{
     flex-direction: row;
  }
-}
-footer{
+ }
+
+ footer{
     background-color: var(--dark-blue3);
     position: relative;
-    padding-top: 400px;
-    height: 190vh;
-}
-.top-part{
+    padding-top: 150px; 
+ }
+ .top-part{
     padding: 20px 40px;
     width: 70%;
     max-width: 600px;
     margin: 0 auto;
-    background-color: var(--dark-blue);
-    border-radius: 8px;
+    background-color: var(--dark-blue1);
     position: absolute;
-    top: -1px;
-    bottom: 0px;
-    color: white;
+    border-radius: 8px;
+    color: var(--white);
+    top: -170px;
     left: 0;
     right: 0;
     text-align: center;
-    height: 20px;
-}
+    
+ }
 
-.top-part h3, .top-part p{
+.top-part h2, .top-part p{
     padding-bottom: 20px;
 }
 .top-part input{
@@ -240,9 +239,9 @@ footer{
 }
 
 .bottom-part img{
-    margin-top: 100px;
+    margin-top: 150px;
     padding-left: 30px;
-}
+} 
 .content1 p{
     color: white;
     padding-left: 50px;
@@ -253,11 +252,28 @@ footer{
     margin-bottom: -25px;
     padding-left: 20px;
 }
-.listt li{
+.list li{
     list-style-type: none;
-    display: block;
-    padding:20px 10px;
+    display: flex;
+    padding-top: 20px;
     color: white ;
     padding-left: 20px;
-    margin-top: 30px;
+}
+.list{
+    margin-bottom: 10px;
+}
+
+.listt li{
+    list-style-type: none;
+    display: flex;
+    padding-top: 20px;
+    color: white ;
+    padding-left: 20px;
+}
+ 
+.icons{
+    color: white;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    padding-top: 70px;
 }
