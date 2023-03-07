@@ -85,6 +85,10 @@ nav ul li {
     margin: 0 auto;
     /* section 1 */
   }
+  
+
+    
+  
  .sec2{ 
     width: 100%;
     margin: 0 auto;
@@ -112,6 +116,18 @@ nav ul li {
     background-color: var(--dark-blue2);
     height: 90vh;
 }
+@media all and (min-width:768px ) {
+    .flex{
+        display: flex;
+    }
+    .flex2{
+        display: flex;
+    }
+    .flex2 button{
+        width: 20px;
+    }
+    
+}
 .sec3 img{
     width: 320px;
     padding-left: 60px;
@@ -132,7 +148,7 @@ nav ul li {
 }
 .link3{
     color: var(--cyan);
-    padding-left: 30px;
+    padding-left: px;
     padding-right: 30px;
     text-decoration: underline;
 }
